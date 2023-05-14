@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- zomato logo in the tab -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Zomato_logo.png/220px-Zomato_logo.png"
+    />
+    <!-- font awsome icons library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- importing styles -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Zomato_Clone</title>
+  </head>
+  <body>
+    <section class="hero_section">
+      <header>
+        <nav class="navbar">
+          <a href="#">Get the app</a>
+          <div class="navbar_menu_container">
+            <a href="#" class="link">Inventor Relations</a>
+            <a href="#" class="link">Add Restaurent</a>
+            <a href="#" class="link">Log in</a>
+            <a href="#" class="link">Sign up</a>
+            <a href="#" class="user_icon">
+              <i class="fa-solid fa-user"></i>
+            </a>
+          </div>
+        </nav>
+      </header>
+      <div class="hero_section_container">
+        <img
+          src="images/heroSectionLogo.png"
+          class="hero_section_logo"
+          alt="Zomato Logo"
+        />
+        <h1 class="hero_section_title">
+          Discover the best food & drinks in Kolkata
+        </h1>
+        <div class="hero_section_input_container">
+          <input
+            type="text"
+            placeholder="kolkata"
+            class="input_container_location"
+          />
+          <input
+            type="text"
+            placeholder="Search for a restaurent ,cuinine or a dish"
+            class="input_container_search"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="container we_offer">
+      <div class="we_offer_card">
+        <img src="images/item1.png" alt="" />
+        <div class="we_offer_content">
+          <h2>Order online</h2>
+          <p>Stay home and order to your doorstep</p>
+        </div>
+      </div>
+      <div class="we_offer_card">
+        <img src="images/item2.png" alt="" />
+        <div class="we_offer_content">
+          <h2>Dining</h2>
+          <p>View the city's favourite dinning venues</p>
+        </div>
+      </div>
+      <div class="we_offer_card">
+        <img src="images/item3.png" alt="" />
+        <div class="we_offer_content">
+          <h2>Nightlife and Clubs</h2>
+          <p>Enjoy the city's top nightlife outlets</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container collection">
+      <h1>Collections</h1>
+      <div class="sub_heading_container">
+        <span
+          >Explore curated lists of top restaurants, cafes, pubs, and bars in
+          Kolkata, based on trends</span
+        >
+        <span>All collections in Kolkata</span>
+      </div>
+      <div class="collections_card_container">
+        <div class="card card1">
+          <div class="overlay"></div>
+          <div class="content">
+            <h4>Newly Opened</h4>
+            <span>58 places</span>
+            <i class="fa-solid fa-caret-right"></i>
+          </div>
+        </div>
+        <div class="card card2">
+          <div class="overlay"></div>
+          <div class="content">
+            <h4>Trending this week</h4>
+            <span>45 places</span>
+            <i class="fa-solid fa-caret-right"></i>
+          </div>
+        </div>
+        <div class="card card3">
+          <div class="overlay"></div>
+          <div class="content">
+            <h4>Best of Kolkata</h4>
+            <span>36 places</span>
+            <i class="fa-solid fa-caret-right"></i>
+          </div>
+        </div>
+        <div class="card card4">
+          <div class="overlay"></div>
+          <div class="content">
+            <h4>Brilliant Biryani</h4>
+            <span>30 places</span>
+            <i class="fa-solid fa-caret-right"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container popular_locations">
+      <h1>Popular localities in and around <span>Kolkata</span></h1>
+      <div class="popular_locations_container">
+
+        <div class="popular_location_items">
+          <div class="popular_location_items_content">
+            <h3>Park Street Area</h3>
+            <h5>223 places</h5>
+          </div>
+          <div class="popular_location_items_logo">
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+
+        <div class="popular_location_items">
+          <div class="popular_location_items_content">
+            <h3>Sector 5, Salt Lake</h3>
+            <h5>494 places</h5>
+          </div>
+          <div class="popular_location_items_logo">
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+
+        <div class="popular_location_items">
+          <div class="popular_location_items_content">
+            <h3>Sector 1, Salt Lake</h3>
+            <h5>346 places</h5>
+          </div>
+          <div class="popular_location_items_logo">
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+
+        <div class="popular_location_items">
+          <div class="popular_location_items_content">
+            <h3>Ballygunge</h3>
+            <h5>333 places</h5>
+          </div>
+          <div class="popular_location_items_logo">
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+
+        <div class="popular_location_items">
+          <div class="popular_location_items_content">
+            <h3>Southern Avenue</h3>
+            <h5>159 places</h5>
+          </div>
+          <div class="popular_location_items_logo">
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+
+        <div class="popular_location_items">
+          <div class="popular_location_items_content">
+            <h3>New Town</h3>
+            <h5>1554 places</h5>
+          </div>
+          <div class="popular_location_items_logo">
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+
+        <div class="popular_location_items">
+          <div class="popular_location_items_content">
+            <h3>Camse Street Area</h3>
+            <h5>87 places</h5>
+          </div>
+          <div class="popular_location_items_logo">
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+
+        <div class="popular_location_items">
+          <div class="popular_location_items_content">
+            <h3>Chinar Park</h3>
+            <h5>572 places</h5>
+          </div>
+          <div class="popular_location_items_logo">
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+        <div class="popular_location_items_seemore">
+          <div class="popular_location_items_content_seemore">
+            <h3>see more</h3>
+            <!-- <h5>223 places</h5> -->
+          </div>
+          <div class="popular_location_items_logo_seemore">
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container get_the_app">
+      <div class="semiContainer">
+        <div class="left">
+          <img src="images/mobileBanner.png" alt="" />
+        </div>
+        <div class="right">
+          <h1>Get the Zomato app</h1>
+          <p>
+            We will send you a link,open it on your phone to download the app
+          </p>
+          <div class="radio_buttons_container">
+            <div>
+              <input type="radio" name="download_app" id="email" />
+              <label for="email" style="font: size 14px"> Email</label>
+            </div>
+            <div>
+              <input type="radio" name="download_app" id="email" />
+              <label for="phone" style="font: size 14px">Phone</label>
+            </div>
+          </div>
+          <div class="input_container">
+            <input type="text" placeholder="Email" name="" id="" />
+            <button>Share App Link</button>
+          </div>
+          <div class="download_app_container">
+            <h5>Download App from</h5>
+            <div>
+              <img src="images/appleStore.png" alt="" />
+              <img src="images/playStore.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container explore_options">
+      <h1>Explore options near me</h1>
+      <div class="explore_dropdown_container">
+        <div class="explore_dropdown">
+          <div class="dropdown_content_header"><h3>Popular cuisines near me</h3></div>
+          <div class="dropdown_content_icon"><i class="fa-solid fa-angle-down"></i></div>
+        </div>
+        <div class="explore_dropdown">
+          <div class="dropdown_content_header"><h3>Popular cuisines near me</h3></div>
+          <div class="dropdown_content_icon"><i class="fa-solid fa-angle-down"></i></div>
+        </div>
+        <div class="explore_dropdown">
+          <div class="dropdown_content_header"><h3>Popular cuisines near me</h3></div>
+          <div class="dropdown_content_icon"><i class="fa-solid fa-angle-down"></i></div>
+        </div>
+        <div class="explore_dropdown">
+          <div class="dropdown_content_header"><h3>Popular cuisines near me</h3></div>
+          <div class="dropdown_content_icon"><i class="fa-solid fa-angle-down"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container footer">
+      <div class="footer_section1">
+        <img src="images/logo.png" alt="" />
+        <div class="section1_button_container">
+          <button>
+            <img
+              src="https://flagcdn.com/w40/in.png"
+              alt=""
+              style="width: 17px"
+            />India
+          </button>
+          <button><i class="fa fa-globe"></i>English</button>
+        </div>
+      </div>
+      <div class="navigation_container">
+        <div class="link_container">
+          <h5>ABOUT ZOMATO</h5>
+          <a href="#" class="footer_link">Who we are</a>
+          <a href="#" class="footer_link">Blogs</a>
+          <a href="#" class="footer_link">Work with us</a>
+          <a href="#" class="footer_link">Investor relations</a>
+          <a href="#" class="footer_link">Report Fraud</a>
+        </div>
+        <div class="link_container">
+          <h5>ZOMAVERSE</h5>
+          <a href="#" class="footer_link">Zomato</a>
+          <a href="#" class="footer_link">Feeding India</a>
+          <a href="#" class="footer_link">Hyperpure</a>
+          <a href="#" class="footer_link">Zomaland</a>
+        </div>
+        <div class="link_container">
+          <h5>FOR RESTAURENTS</h5>
+          <a href="#" class="footer_link">Partener with us</a>
+          <a href="#" class="footer_link">Apps for you</a>
+          <br />
+          <h5>FOR ENTERPRICES</h5>
+          <a href="#" class="footer_link">Zomato For Work</a>
+        </div>
+        <div class="link_container">
+          <h5>Learn Mere</h5>
+          <a href="#" class="footer_link">Privacy</a>
+          <a href="#" class="footer_link">Security</a>
+          <a href="#" class="footer_link">Terms</a>
+          <a href="#" class="footer_link">Sitemap</a>
+        </div>
+        <div class="link_container">
+          <h5>SOCIAL LINKS</h5>
+          <div class="social_link_container">
+            <button><i class="fa-brands fa-linkedin-in"></i></button>
+            <button><i class="fa-brands fa-instagram"></i></button>
+            <button><i class="fa-brands fa-twitter"></i></button>
+            <button><i class="fa-brands fa-youtube"></i></button>
+            <button><i class="fa-brands fa-facebook"></i></button>
+          </div>
+          <br />
+          <img
+            src="images/appleStore.png"
+            alt=""
+            class="footer_section_logos"
+          />
+          <br>
+          <img src="images/playStore.png" alt="" class="footer_section_logos" />
+        </div>
+      </div>
+      <div class="disclamer">
+        By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2022 © Zomato™ Ltd. All rights reserved.
+      </div>
+    </footer>
+  </body>
+</html>
